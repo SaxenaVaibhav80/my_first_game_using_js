@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>THE DICE GAME</title>
+        <link rel="icon" href="dicegameicon.ico">
+        <link rel="stylesheet" href="dice_game_css.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Codystar&family=Griffy&family=Lobster&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <h1 id="dicetitlehead">THE DICE GAME</h1>
+        <div id="dice_div">
+            <div id="dice_div1">
+                <h2 id="player1head">player 1</h2>
+                <img id="img1" src="dice6.png" alt="6">
+            </div>
+            <div id="dice_div2">
+                <h2 id="player2head">player 2</h2>
+                <img  id="img2" src="dice6.png" alt="6">
+            </div>
+        </div>
+        <button id="dice_btn" type="button" onclick="throughDice(),audioDice()">THROW</button>
+        <button id="dice_reset" type="button" onclick="resetDice()">RESET</button>
+        <div id="dice_div_foot">
+            <h3 id="dice_div_foothead1">www .</h3>
+            <h3 id="dice_div_foothead3">Play My Game .</h3>
+            <h2 id="dice_div_foothead5">com</h2>
+        </div>
+        <audio hidden id="audio">
+            <source  src="TunePocket-Rolling-Dice-Preview.mp3" type="audio/mp3" >
+        </audio>
+    </body>
+    <script src="dice_game_js.js"></script>
+</html>

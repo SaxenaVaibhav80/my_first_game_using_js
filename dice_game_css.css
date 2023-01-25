@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(27, 21, 33);
+    text-align: center;
+}
+#dicetitlehead{
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+    font-size: 120px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    color:rgb(90, 132, 118);
+}
+#dice_div{
+    display:flex;
+}
+#dice_div1{
+    margin-left: 465px;
+}
+#dice_div2{
+    margin-left:70px;
+}
+#player1head {
+    color:rgb(90, 132, 118);
+    font-family: 'Codystar', cursive;
+}
+#player2head{
+    color:rgb(90, 132, 118);
+    font-family: 'Codystar', cursive;
+}
+#dice_div_foot{
+    display: flex;
+    width: 220px;
+    justify-content: space-around;
+    margin: 18px auto 0px auto;
+    
+
+}
+#dice_div_foothead1{
+    font-family: 'Griffy', cursive;
+    color: #576767
+}
+#dice_div_foothead3{
+    font-family: 'Griffy', cursive;
+    color: #576767
+}
+#dice_div_foothead5{
+    font-family: 'Griffy', cursive;
+    margin-top: 14px;
+    color: #576767
+}
+#dice_btn{
+    margin-top: 60px;
+    padding: 12px 25px 12px 25px;
+    border-style:none;
+    border-radius: 9px;
+    background:linear-gradient(#9eb6b6,#3f5f5f);
+    box-shadow: 0px -2px 9px 4px #0acfcf;
+    font-family: 'Macondo', cursive;
+    color: #00eeff;
+    letter-spacing: 1px;
+    margin-right: 38px;
+}
+#dice_reset{
+    margin-top: 60px;
+    padding: 12px 25px 12px 25px;
+    border-style:none;
+    border-radius: 9px;
+    background:linear-gradient(#9eb6b6,#3f5f5f);
+    box-shadow: 0px -2px 9px 4px #0acfcf;
+    font-family: 'Macondo', cursive;
+    color: #00eeff;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+#dice_btn:hover{
+    cursor: pointer;
+}
+#dice_reset:hover{
+    cursor: pointer;
+}
